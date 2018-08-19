@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="type.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.0.2/typeit.min.js"></script>
+    <script>
+        $(function () {
+            new TypeIt('#element', {
+                speed: 100
+            })
+                .type('Hello')
+                .pause(800)
+                .options({ speed: 100 })
+                .break()
+                .pause(300)
+                .type('I\'m Chris h')
+                .delete(1)
+                .type('Haslam')
+                .pause(800)
+                .options({ speed: 75 })
+                .break()
+                .break()    
+                .pause(500)
+                .type('Founder of digital consultancy <em>exit(0);</em>')
+                .pause(500)
+                .break()
+                .break()
+                .options({ speed: 75 })
+                .type('We provide <span id="advisory">advisory</span> and <span id="consulting">consulting</span> services')
+                .pause(500)
+                .break()
+                .type('predominately in web, digital & open source')
+                .break()
+                .break()
+                .type('Contact us <a href="">here</a>')
+        });
+    </script>
+</head>
+
+<title>exit(0);</title>
+
+<body>
+
+    <div class="header"></div>
+
+    <div class="logo">
+        <img src="img/exit-logo.png">
+    </div>
+
+    <!-- <div id="element"></div> -->
+
+
+    <div class="footer">
+      exit(0); digital limited, 11484404, 12 Jordan Street, Liverpool, L1 0BP
+    </div>   
+
+
+    
+
+</body>
+</html>

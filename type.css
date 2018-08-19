@@ -1,0 +1,66 @@
+body {
+    background: #212121;
+    color: #ffffff;
+    font-family: 'MaisonNeue';
+    font-size: 48px;
+    letter-spacing: -0.01em;
+    
+}
+
+@font-face {
+     font-family: 'MaisonNeue';
+     src: url('fonts/MaisonNeue-Mono.woff2') format('woff2');
+     font-weight: normal;
+     font-style: normal;
+}
+
+#element {
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+.footer {
+    position: absolute;
+    top: 800px;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffbfa1;
+    font-weight: bold;
+    border-bottom: 1px dotted #ffbfa1;
+    /* background: #198861; */
+    color: #fff;
+}
+
+.header {
+    height: 200px;
+    max-width: 100%; 
+    /* background-image: url("img/bg.png"); */
+  
+}
+
+.logo {
+    font-family: 'MaisonNeue', sans-serif;
+    padding-left: 100px;
+    padding-top: 50px;
+    font-size: 72px;
+}
+
+#yellow {
+    color: #ffbaf7;
+}
+
+#zero {
+    color: #ffbfa1;
+}
+
+#advisory {
+  text-decoration: underline dotted #ffbaf7;
+}
+
+#consulting {
+   text-decoration: underline dotted #c2ffe9;
+}
